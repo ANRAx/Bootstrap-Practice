@@ -7,11 +7,8 @@
     <title>Bootstrap Practice</title>
     <!-- Bootstrap Stylesheet Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        nav {
-            border: 1px solid red;
-        }
-    </style>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <!-- navbar -->
@@ -21,29 +18,51 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse pr-5" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Portfoilo</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Disabled</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Portfoilo</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Disabled</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-      <!-- page content -->
-      <!-- About me header -->
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-xs-4">
-                  <h1>About Me</h1>
-              </div>
-          </div>
-      </div>
-      <!--  -->
+    </nav>
+    <!-- MAIN PAGE CONTENT -->
+    <!-- About Me Header -->
+    <div class="container" id="aboutHeader">
+        <div class="row justify-content-center">
+            <div class="col-xs-4">
+                <h1>About Me</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT ME -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <!-- Profile Image -->
+                <img class="img-responsive float-left clear-fix pull-left mr-3" src="assets/images/propic.jpg" alt="Profile Image">
+                <!-- About me paragraph -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores voluptas ratione officia mollitia temporibus pariatur sint, odit repudiandae facilis dolores quam doloribus architecto? Quis eaque minus ducimus deserunt culpa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus asperiores repudiandae autem! Fugiat enim facere nulla esse ipsum, aperiam, nam alias ducimus officiis quasi, quibusdam dignissimos nemo cumque facilis consequatur.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellendus ullam nulla ratione eum veritatis iusto minus cum laudantium consectetur rem et itaque, explicabo velit esse quis sit ad mollitia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum blanditiis cupiditate, autem aliquam expedita dolorem voluptates quia officiis commodi provident optio voluptate exercitationem sunt ullam soluta excepturi! Temporibus, hic placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, necessitatibus quia saepe maiores quos blanditiis nulla quidem nihil adipisci corporis facere cupiditate officiis quisquam, qui nesciunt excepturi, repellendus dolores. Veritatis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut ducimus dolorum delectus quaerat, exercitationem unde! Qui nihil itaque reprehenderit ab deserunt, libero inventore maxime at placeat explicabo, vel esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat iure quisquam illum dolorum eveniet et culpa! Exercitationem natus eaque porro rem at fugiat fuga, hic dolorum sed esse itaque.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque doloribus cupiditate deleniti veritatis? Qui tempora, alias sed quidem, debitis itaque tenetur dicta necessitatibus ut laborum vitae quasi, id omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam dolorem ad praesentium voluptas est dolorum molestiae eveniet perferendis necessitatibus reprehenderit, dolor nemo sunt beatae impedit quasi vitae nam alias.</p>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer navbar-fixed-bottom">
+        <div class="container">
+            <span>&copy; Copyright 2019 ANRAx</span>
+        </div>
+    </footer>
 </body>
 <!-- Bootstrap CDN -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

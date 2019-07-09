@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/oriental.png")
+}
+
+.mainBody {
+    background-color: aliceblue;
+}
+#aboutHeader {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-image: url("../images/oriental.png");
+    color: orange;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
